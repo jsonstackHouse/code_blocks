@@ -1,7 +1,7 @@
 from flask import Response
 import requests
-from events_keys import oauth_token
 
+oatuh_token = ""
 
 def parse_event_data(data):
     ## Un-comment to check payload
